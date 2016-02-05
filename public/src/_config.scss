@@ -1,0 +1,16 @@
+$colours: (
+  link: #899299,
+  link-hover: #27C1CA
+);
+
+$susy: (
+  columns: 12,
+  column-width: 80px,
+  gutters: 1/4,
+  math: static,
+  output: float,
+  gutter-position: inside,
+  global-box-sizing: border-box
+);
+
+@include global-box-sizing();

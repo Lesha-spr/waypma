@@ -1,0 +1,43 @@
+html, body {
+
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+// etc...
+
+a {
+  color: susy-get(link, $colours);
+  text-decoration: none;
+
+  &:hover {
+    color: susy-get(link-hover, $colours);
+  }
+}
+
+.container {
+  @include container;
+
+  &.container_gutters {
+    @include gutters;
+  }
+}
+
+.sidebar {
+  @include span(3 of 12);
+
+  &.sidebar_accessory {
+    @include span(last 3 of 12);
+  }
+}
+
+.content {
+  margin-left: isolate(4);
+  margin-right: isolate(4);
+}

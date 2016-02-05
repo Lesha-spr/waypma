@@ -1,0 +1,7 @@
+.nav__list {
+  @include list-unstyled;
+}
+
+.nav__list-item {
+  margin-bottom: 20px;
+}

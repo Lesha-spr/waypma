@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title Relap
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+        link(rel='stylesheet' href='../styles/app.css')
+    body
+        include ../../blocks/header
+        main.container
+            aside.sidebar.sidebar_nav
+                include ../../blocks/sidebar
+            aside.sidebar.sidebar_accessory
+                include ../../blocks/accessory
+            section.content
+                block content
+        include ../../blocks/footer
